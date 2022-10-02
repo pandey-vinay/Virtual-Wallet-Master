@@ -3,7 +3,7 @@
 ## About
 
 ## Problem Statement
-virtual wallet to track users transaction account .
+Virtual Wallet to track user's transaction account .
 At a high level the library needs to solve the following business needs
 * Track a user’s account balance
 * Manage account transactions in the form of debits (withdrawals) and credits (deposits).
