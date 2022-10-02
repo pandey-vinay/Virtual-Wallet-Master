@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/virtual-wallet-master.iml" filepath="$PROJECT_DIR$/.idea/virtual-wallet-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virtual-wallet-master/virtualwallet.iml" filepath="$PROJECT_DIR$/virtual-wallet-master/virtualwallet.iml" />
+    </modules>
+  </component>
+</project>
