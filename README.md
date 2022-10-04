@@ -114,7 +114,8 @@ Response->{
     }
 }
 
-* ### c) Return current account balance :
+
+### c) Return current account balance :
 
 Provided endpoint : `http://localhost:8080/api/wallet/{walletId}/account/{accountId}/balance`.
 
@@ -129,7 +130,8 @@ Response->
 
 The backend JAVA code checks for all validation. If the accountId is not associated with provided walledId, an exception is thrown.
 
-* ### d) Perform a withdrawal transaction on an account :
+
+### d) Perform a withdrawal transaction on an account :
 
 Provided endpoint : `http://localhost:8080/api/wallet/{walletId}/account/{accountId}/withdraw/{amount}`
 
@@ -152,7 +154,8 @@ Response->{
     }
 }
 
-* ### e) Perform a deposit transaction on an account :
+
+### e) Perform a deposit transaction on an account :
 
 Provided endpoint : `http://localhost:8080/api/wallet/{walletId}/account/{accountId}/deposit/{amount}`
 
@@ -177,7 +180,7 @@ Response:-
 }
 
 
-* ### f) Return last N transactions for an account :
+### f) Return last N transactions for an account :
 
 Provided endpoint :  `http://localhost:8080/api/wallet/{walletId}/account/{accountId}/lastNTransactions/{n}`.
 
