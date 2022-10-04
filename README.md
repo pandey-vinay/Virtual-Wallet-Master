@@ -2,37 +2,37 @@
 
 ## About
 
-## Problem Statement
-This is a Virtual Wallet to track User's transaction account.
+## Problem Statement :-
+Our Project's task is to create a Virtual Wallet to track User's transaction account.
 
 ### At a high level, the library needs to solve the following business requirements :-
 
 * Track a User’s Account balance.
 * Manage Account's transactions in the form of debits (withdrawals) and credits (deposits).
-* Keep a history of last N transactions.
+* Keep the history of last N transactions.
 
 
-## I have run the project using Following steps :-
-```
+## I have run the Project using the following steps :-
+
 1. Build the project using maven---
 $ mvn clean install
 
-2.run the project---
+2. Run the Project using---
 $ mvn spring-boot:run
 
-* Now navigate to http://localhost:8080/ .
+* Now navigate to http://localhost:8080/
 
 ## Functionality
 
 Since project uses *H2* in-memory database, some sample data has already been provided to get started with. 
 
-*  Navigate to `http://localhost:8080/h2-console` .You would see h2 console :
+* Navigate to `http://localhost:8080/h2-console. You would see h2 console :
 
-**Make sure**  that you use `jdbc:h2:mem:testdb` as JDBC URL. Click connect.
+**Make sure**  that you use jdbc:h2:mem:testdb as JDBC URL. Click connect.
 
 I have made following api's below-
 
-* ### a) Add an account to user 4 (Dan in this case) :
+### a) Add an account to user 4 (Dan in this case) :
 
 Provided endpoint : `http://localhost:8080/api/account/`
 
