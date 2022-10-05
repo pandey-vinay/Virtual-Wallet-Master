@@ -31,7 +31,7 @@ Since project uses *H2* in-memory database, some sample data has already been pr
 
 * Navigate to http://localhost:8080/h2-console. You would see h2 console :
 
-**Make sure**  that you use 'jdbc:h2:mem:testdb' as JDBC URL. Click connect.
+**Make sure**  that you use **jdbc:h2:mem:testdb** as JDBC URL. Click connect.
 
 I have made following apis stated below :-
 
