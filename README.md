@@ -39,7 +39,7 @@ I have made following apis stated below :-
 
 Provided endpoint : `http://localhost:8080/api/account/`
 
-use post request as :
+Use post request as :
 ```{JSON}
 {
 	"balance":4000,
@@ -65,7 +65,7 @@ Response:-{
     "bankTransactions": null
 }
 
-* ### b) Create a new wallet for a user :
+### b) Create a new wallet for a user :
 
 I am assuming a user can have multiple accounts.
 
