@@ -1,6 +1,9 @@
 # Virtual-Wallet-Master
 
 ## About
+This project is about building a Java library for Online Banking Platform to build the Virtual Wallet to track the transaction account of users.
+
+This is a Spring Boot application with in memory database H2. I am using JPA (Java Persistance API) to interact with the in memory database.
 
 ## Problem Statement :-
 Our Project's task is to create a Virtual Wallet to track User's transaction account.
