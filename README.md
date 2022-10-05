@@ -29,11 +29,11 @@ $ mvn spring-boot:run
 
 Since project uses *H2* in-memory database, some sample data has already been provided to get started with. 
 
-* Navigate to `http://localhost:8080/h2-console. You would see h2 console :
+* Navigate to http://localhost:8080/h2-console. You would see h2 console :
 
-**Make sure**  that you use jdbc:h2:mem:testdb as JDBC URL. Click connect.
+**Make sure**  that you use 'jdbc:h2:mem:testdb' as JDBC URL. Click connect.
 
-I have made following api's below-
+I have made following apis stated below :-
 
 ### a) Add an account to user 4 (Dan in this case) :
 
